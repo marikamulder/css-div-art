@@ -1233,6 +1233,68 @@ body {
     background-position: 135px 120px, 80px 18px, 30px 120px, 0px 0px, 75px 75px, -25px -25px;
   }
   
+  /* strawHat */
+  
+  .strawHatSection {
+    width: 50%;
+    height: 500px;
+    background-color: grey;
+  }
+  
+  .strawHatFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .strawHat {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .strawHat:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image:
+      radial-gradient(ellipse at 50% 100%, white 38%, black 38% 43%, transparent 43%),
+      radial-gradient(ellipse at 50% 100%, gold  40%, black 40% 42%, transparent 43%),
+      radial-gradient(circle, transparent 45%, black 45%, black 47%, transparent 47%, transparent 100%),
+      radial-gradient(ellipse at 0% 50%, gold 40% 45%,black 45% 50%, transparent 50%),
+      radial-gradient(ellipse at 100% 50%, gold 40% 45%,black 45% 50%, transparent 50%),
+      radial-gradient(ellipse at 50% 100%, red 38%, black 38% 43%, transparent 43%),
+      radial-gradient(ellipse at 50% 100%, gold 40%, transparent 40%),
+      radial-gradient(black 50%, transparent 50%),
+      radial-gradient(black 50%, transparent 50%),
+      radial-gradient(black 50%, transparent 50%),
+      radial-gradient(circle, white 45%, black 45%, black 47%, transparent 47%, transparent 100%),
+      linear-gradient(black 50%, black 50%),
+      linear-gradient(black 50%, black 50%),
+      linear-gradient(black 50%, black 50%),
+      linear-gradient( 135deg, transparent 30%, black 30%, black 35%, white 35%, white 65%, black 65%, black 70%, transparent 70%),
+      linear-gradient( -135deg, transparent 30%, black 30%, black 35%, white 35%, white 65%, black 65%, black 70%, transparent 70%),
+      linear-gradient( 135deg, transparent 30%, black 30%, black 35%, white 35%, white 65%, black 65%, black 70%, transparent 70%),
+      linear-gradient( -135deg, transparent 30%, black 30%, black 35%, white 35%, white 65%, black 65%, black 70%, transparent 70%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(circle, white 40%, black 40%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(ellipse, white 45%, black 45%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(ellipse, white 45%, black 45%, black 50%, transparent 50%, transparent 100%),
+      radial-gradient(ellipse, white 45%, black 45%, black 50%, transparent 50%, transparent 100%);
+    background-size: 275px 20px, 350px 25px, 250px 250px, 40px 30px, 40px 30px, 255px 25px, 255px 100px, 70px 70px, 70px 70px, 30px 30px, 250px 250px, 2px 25px, 2px 25px, 2px 25px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 120px 60px, 120px 60px, 120px 100px;
+    background-position: 50% 37.5%, 50% 34%, 0% 0%, 97% 41%, 3% 41%, 50% 30%, 50% 1%, 30% 60%, 70% 60%, 50% 75%, 100% 100%, 50% 92%, 60% 90%, 41% 90%, 13% 86%, 13% 13%, 86% 13%, 86% 86%, 5% 100%, 0% 90%, 0% 5%, 10% 0%, 100% 5%, 90% 0%, 95% 100%, 100% 90%, 50% 90%, 50% 95%, 50% 110%;
+  }
   
   
   @media screen and (max-width: 980px) {
@@ -1260,4 +1322,9 @@ body {
       .flagSection{
           width: 100%;
       }
+
+      .strawHatSection {
+        width: 100%;
+      }
   }
+  

@@ -1378,6 +1378,65 @@ body {
     background-position: 50% 37.5%, 50% 34%, 0% 0%, 97% 41%, 3% 41%, 50% 30%, 50% 1%, 30% 60%, 70% 60%, 50% 75%, 100% 100%, 50% 92%, 60% 90%, 41% 90%, 13% 86%, 13% 13%, 86% 13%, 86% 86%, 5% 100%, 0% 90%, 0% 5%, 10% 0%, 100% 5%, 90% 0%, 95% 100%, 100% 90%, 50% 90%, 50% 95%, 50% 110%;
   }
   
+  /* Minecraft Totem */
+  
+  .totemSection {
+    width: 50%;
+    height: 500px;
+    background-color: Teal;
+  }
+  
+  .totemFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .minecraftTotem {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .minecraftTotem:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient( to right, transparent 0px 20px, #00BB46 20px 30px, transparent 30px 250px),
+      linear-gradient( to right, transparent 0px 10px, #00BB46 10px 40px, transparent 40px 140px, #41E67F 140px 150px, transparent 150px 220px, #F8EEA5 220px 230px, transparent 230px 250px),
+      linear-gradient( to right, #00BB46 0px 50px, transparent 50px 130px, #41E67F 130px 160px, transparent 160px 210px, #F8EEA5 210px 240px, transparent 240px 250px),
+      linear-gradient( to right, transparent 0px 10px, #00BB46 10px 40px, transparent 40px 140px, #41E67F 140px 150px, transparent 150px 220px, #F8EEA5 220px 230px, transparent 230px 250px),
+      linear-gradient( to right, transparent 0px 20px, #00BB46 20px 30px, transparent 30px 250px),
+      linear-gradient( to right, transparent 0px 100px, #A05B23 100px 160px, transparent 160px 250px),
+      linear-gradient( to right, transparent 0px 90px, #A05B23 90px 100px, #EADB84 100px 160px, #A05B23 160px 170px, transparent 170px 210px, #00BB46 210px 220px, transparent 220px 250px),
+      linear-gradient( to right, transparent 0px 50px, #41E67F 50px 60px, transparent 60px 90px, #85400F 90px 100px, #EADB84 100px 110px,  #FDFBEE 110px 130px, #F8EEA5 130px 150px, #EADB84 150px 160px, #85400F 160px 170px, transparent 170px 200px, #00BB46 200px 230px, transparent 230px 250px),
+      linear-gradient( to right, transparent 0px 40px, #41E67F 40px 70px, transparent 70px 90px, #85400F 90px 100px, #D1A75D 100px 120px,  #F8EEA5 120px 130px, #EADB84 130px 140px, #D1A75D 140px 160px, #85400F 160px 170px, transparent 170px 190px, #00BB46 190px 240px, transparent 240px 250px),
+      linear-gradient( to right, transparent 0px 50px, #41E67F 50px 60px, transparent 60px 90px, #85400F 90px 100px, #FDFBEE 100px 110px, #41E67F 110px 120px,  #D1A75D 120px 140px, #FDFBEE 140px 150px, #41E67F 150px 160px, #85400F 160px 170px, transparent 170px 200px, #00BB46 200px 230px, transparent 230px 250px),
+      linear-gradient( to right, transparent 0px 90px, #85400F 90px 100px, #41E67F 100px 110px, #00BB46 110px 120px, #FDFBEE 120px 130px, #F8EEA5 130px 140px, #41E67F 140px 150px, #00BB46 150px 160px, #85400F 160px 170px, transparent 170px 210px, #00BB46 210px 220px, transparent 220px 250px),
+      linear-gradient( to right, transparent 0px 90px, #85400F 90px 100px, #C58742 100px 110px, #D1A75D 110px 120px, #F8EEA5 120px 130px, #EADB84 130px 140px, #D1A75D 140px 150px, #C58742 150px 160px, #85400F 160px 170px, transparent 170px 250px),
+      linear-gradient( to right, transparent 0px 20px, #F8EEA5 20px 30px, transparent 30px 60px, #A05B23 60px 100px, #85400F 100px 110px, #C58742 110px 120px, #EADB84 120px 130px, #D1A75D 130px 140px, #C58742 140px 150px, #85400F 150px 160px, #A05B23 160px 200px, transparent 200px 250px),
+      linear-gradient( to right, transparent 0px 10px, #F8EEA5 10px 40px, transparent 30px 60px, #A05B23 60px 70px, #EADB84 70px 80px, #D1A75D 80px 90px, #85400F 90px 100px, #EADB84 100px 110px, #D1A75D 110px 120px, #C58742 120px 140px, #D1A75D 140px 150px, #C58742 150px 160px, #85400F 160px 170px, #C58742 170px 180px, #D1A75D 180px 190px, #85400F 190px 200px, transparent 200px 250px),
+      linear-gradient( to right, transparent 0px 20px, #F8EEA5 20px 30px, transparent 30px 70px, #85400F 70px 90px, #A05B23 90px 100px, #F8EEA5 100px 110px, #FDFBEE 110px 120px, #F8EEA5 120px 130px, #EADB84 130px 150px, #D1A75D 150px 160px, #A05B23 160px 170px, #85400F 170px 190px, transparent 190px 250px),
+      linear-gradient( to right, transparent 0px 90px, #A05B23 90px 100px, #EADB84 100px 110px,  #D1A75D 110px 150px, #C58742 150px 160px, #85400F 160px 170px, transparent 170px 210px, #F8EEA5 210px 220px, transparent 220px 250px),
+      linear-gradient( to right, transparent 0px 90px, #85400F 90px 100px, #A05B23 100px 160px, #85400F 160px 170px, transparent 170px 200px, #F8EEA5 200px 230px, transparent 230px 250px),
+      linear-gradient( to right, transparent 0px 100px, #85400F 100px 110px, #D1A75D 110px 120px, #C58742 120px 150px, #85400F 150px 160px, transparent 160px 210px, #F8EEA5 210px 220px, transparent 220px 250px),
+      linear-gradient( to right, transparent 0px 70px, #41E67F 70px 80px, transparent 80px 100px, #85400F 100px 110px, #D1A75D 110px 120px, #C58742 120px 140px, #D1A75D 140px 150px, #85400F 150px 160px, transparent 160px 250px),
+      linear-gradient( to right, transparent 0px 60px, #41E67F 60px 90px, transparent 90px 110px, #85400F 110px 150px, transparent 150px 250px),
+      linear-gradient( to right, transparent 0px 50px, #41E67F 50px 100px, transparent 100px 160px, #00BB46 160px 170px, transparent 170px 220px, #41E67F 220px 230px, transparent 230px 250px),
+      linear-gradient( to right, transparent 0px 60px, #41E67F 60px 90px, transparent 90px 150px, #00BB46 150px 180px, transparent 180px 210px, #41E67F 210px 240px, transparent 240px 250px),
+      linear-gradient( to right, transparent 0px 70px, #41E67F 70px 80px, transparent 80px 160px, #00BB46 160px 170px, transparent 170px 200px, #41E67F 200px 250px),
+      linear-gradient( to right, transparent 0px 210px, #41E67F 210px 240px, transparent 240px 250px),
+      linear-gradient( to right, transparent 0px 220px, #41E67F 220px 230px, transparent 230px 250px);
+    background-size: 250px 10.9px;
+    background-position: 0px 0px, 0px 10px, 0px 20px, 0px 30px, 0px 40px, 0px 50px, 0px 60px, 0px 70px, 0px 80px, 0px 90px, 0px 100px, 0px 110px, 0px 120px, 0px 130px, 0px 140px, 0px 150px, 0px 160px, 0px 170px, 0px 180px, 0px 190px, 0px 200px, 0px 210px, 0px 220px, 0px 230px, 0px 240px;
+  }
+  
   
   @media screen and (max-width: 980px) {
     
@@ -1411,6 +1470,10 @@ body {
 
       .strawHatSection {
         width: 100%;
+      }
+    
+      .totemSection{
+          width: 100%;
       }
   }
   

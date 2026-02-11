@@ -1484,6 +1484,9 @@ body {
     height: 250px;
     background-repeat: no-repeat;
     background-image:
+      radial-gradient(circle, #0080FF 20%, black 20% 30%, #0080FF 30% 40%, black 45% 52%, #0080FF 52% 60%, black 60% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%),
       linear-gradient(to right, black 100%),
       linear-gradient(to right, black 100%),
       linear-gradient(to right, black 100%),
@@ -1503,15 +1506,12 @@ body {
       linear-gradient(to right, black 100%),
       linear-gradient(to right, black 100%),
       linear-gradient(to right, green 100%),
-      radial-gradient(ellipse, transparent 67%, black 67% 70%, lightblue 70% 100%),
+      radial-gradient(ellipse, transparent 71%, lightblue 71% 100%),
       radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
       radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
-      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
-      radial-gradient(circle, #0080FF 20%, black 20% 30%, #0080FF 30% 40%, black 45% 52%, #0080FF 52% 60%, black 60% 70%, transparent 70% 100%),
-      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%),
-      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%);
-    background-size: 50px 3px, 50px 3px, 50px 3px, 50px 3px, 40px 3px, 40px 3px, 29px 3px, 29px 3px, 29px 3px, 29px 3px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 70px 70px, 150px 130px, 150px 130px, 150px 130px, 150px 130px, 50px 50px, 50px 35px, 50px 35px;
-    background-position: 100% 63%, 100% 54%, 100% 46%, 100% 36%, 0% 57%, 0% 43%, 39% 10%, 61% 10%, 39% 90%, 61% 90%, 35% 0%, 45% 0%, 55% 0%, 65% 0%, 35% 100%, 45% 100%, 55% 100%, 65% 100%, 50% 50%, -50% -50%, 150% 150%, 150% -50%, -50% 150%, 12% 50%, 85% 40%, 85% 60%;
+      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%);
+    background-size: 50px 50px, 50px 35px, 50px 35px, 50px 3px, 50px 3px, 50px 3px, 50px 3px, 40px 3px, 40px 3px, 29px 3px, 29px 3px, 29px 3px, 29px 3px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 70px 70px, 150px 130px, 150px 130px, 150px 130px, 150px 130px;
+    background-position: 12% 50%, 85% 40%, 85% 60%, 100% 63%, 100% 54%, 100% 46%, 100% 36%, 0% 57%, 0% 43%, 39% 10%, 61% 10%, 39% 90%, 61% 90%, 35% 0%, 45% 0%, 55% 0%, 65% 0%, 35% 100%, 45% 100%, 55% 100%, 65% 100%, 50% 50%, -50% -50%, 150% 150%, 150% -50%, -50% 150%;
   }
   
   

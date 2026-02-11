@@ -1437,6 +1437,83 @@ body {
     background-position: 0px 0px, 0px 10px, 0px 20px, 0px 30px, 0px 40px, 0px 50px, 0px 60px, 0px 70px, 0px 80px, 0px 90px, 0px 100px, 0px 110px, 0px 120px, 0px 130px, 0px 140px, 0px 150px, 0px 160px, 0px 170px, 0px 180px, 0px 190px, 0px 200px, 0px 210px, 0px 220px, 0px 230px, 0px 240px;
   }
   
+  /* Digivice */
+  
+  .digiviceSection {
+    width: 50%;
+    height: 500px;
+    background-color: #E6BBAD;
+  }
+  
+  .digiviceFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .digivice {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .digivice:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image:
+      radial-gradient(circle, black 30%, lightblue 30% 48%, black 49% 50%, transparent 50% 100%),
+      linear-gradient(235deg, transparent 35%, black 35% 75%, transparent 75% 100%),
+      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
+      linear-gradient(to right, black 1%, lightblue 1% 99%, black 99% 100%),
+      linear-gradient(to bottom, black 1%, lightblue 1% 99%, black 99% 100%);
+    background-size: 250px 250px, 50px 50px, 150px 130px, 300px 245px, 295px 250px;
+    background-position: 50% 50%, 7% 7%, -50% -50%, 50% 50%, 50% 50%;
+  }
+  
+  .digivice:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, green 100%),
+      radial-gradient(ellipse, transparent 67%, black 67% 70%, lightblue 70% 100%),
+      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #E6BBAD 67%, black 67% 70%, transparent 70% 100%),
+      radial-gradient(circle, #0080FF 20%, black 20% 30%, #0080FF 30% 40%, black 45% 52%, #0080FF 52% 60%, black 60% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%),
+      radial-gradient(ellipse, #0080FF 37%, black 37% 45%, #0080FF 45% 60%, black 60% 70%, transparent 70% 100%);
+    background-size: 50px 3px, 50px 3px, 50px 3px, 50px 3px, 40px 3px, 40px 3px, 29px 3px, 29px 3px, 29px 3px, 29px 3px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 3px 28px, 70px 70px, 150px 130px, 150px 130px, 150px 130px, 150px 130px, 50px 50px, 50px 35px, 50px 35px;
+    background-position: 100% 63%, 100% 54%, 100% 46%, 100% 36%, 0% 57%, 0% 43%, 39% 10%, 61% 10%, 39% 90%, 61% 90%, 35% 0%, 45% 0%, 55% 0%, 65% 0%, 35% 100%, 45% 100%, 55% 100%, 65% 100%, 50% 50%, -50% -50%, 150% 150%, 150% -50%, -50% 150%, 12% 50%, 85% 40%, 85% 60%;
+  }
+  
   
   @media screen and (max-width: 980px) {
     
@@ -1473,6 +1550,10 @@ body {
       }
     
       .totemSection{
+          width: 100%;
+      }
+    
+      .digiviceSection{
           width: 100%;
       }
   }

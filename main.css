@@ -1455,7 +1455,7 @@ body {
   }
   
   .digivice {
-    width: 250px;
+    width: 300px;
     height: 250px;
   }
   
@@ -1514,6 +1514,91 @@ body {
     background-position: 12% 50%, 85% 40%, 85% 60%, 100% 63%, 100% 54%, 100% 46%, 100% 36%, 0% 57%, 0% 43%, 39% 10%, 61% 10%, 39% 90%, 61% 90%, 35% 0%, 45% 0%, 55% 0%, 65% 0%, 35% 100%, 45% 100%, 55% 100%, 65% 100%, 50% 50%, -50% -50%, 150% 150%, 150% -50%, -50% 150%;
   }
   
+  /* bannerfall logo */
+  
+  .bannerfallSection {
+    width: 50%;
+    height: 500px;
+    background-image: linear-gradient(90deg, #095595 0%, #ab3031 100%);
+  }
+  
+  .bannerfallFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .bannerfall {
+    width: 271px;
+    height: 300px;
+  }
+  
+  .bannerfall:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border: solid 10px transparent;
+    box-shadow: 10px 0px 10px black, -10px 0px 10px black, 0px 10px 10px black, 0px -10px 10px black;
+    background-clip: padding-box, border-box;
+    corner-top-left-shape: scoop;
+    corner-top-right-shape: scoop;
+    border-radius: 50% 50% 50% 50% / 20% 20% 88% 88%;
+    background-repeat: no-repeat;
+    background-image: 
+      linear-gradient(90deg, #095595 50%, #ab3031 50% 100%),
+      linear-gradient(90deg, #edcd44 50%, #ccb23d 50% 100%);
+    background-size: 250px 300px, 300px 350px;
+    background-position: 50% 50%, 50% 50%;
+  }
+  
+.bannerfall:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-image: 
+      linear-gradient(40deg, transparent 20%, #edcd44 20% 60%, transparent 60% 100%),
+      linear-gradient(320deg, transparent 20%, #ccb23d 20% 60%, transparent 60% 100%),
+      conic-gradient(at 50% 0%, transparent 45%, #ccb23d 45% 50%, #edcd44 50% 55%, transparent 55%),
+      conic-gradient(at 50% 50%, #ccb23d 0% 14%, transparent 14% 86%, #edcd44 86% 100%),
+      linear-gradient(40deg, transparent 20%, white 20% 60%, transparent 60% 100%),
+      linear-gradient(320deg, transparent 20%, white 20% 60%, transparent 60% 100%),
+      conic-gradient(at 50% 0%, transparent 45%, white 45% 50%, white 50% 55%, transparent 55%),
+      conic-gradient(at 50% 50%, white 0% 14%, transparent 14% 86%, white 86% 100%);
+    background-size: 15px 45px, 15px 45px, 20px 40px, 30px 45px, 25px 60px, 25px 60px, 36px 50px, 40px 50px;
+    background-position: 49.77% 96%, 58.77% 96%, 54.77% 94%, 54.77% 106.5%, 49.77% 98%, 58.77% 98%, 54.89% 93%, 54.77% 109%;
+}
+
+.bannerfallText {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.bannerfallText {
+  width: 250px;
+  height: 300px;
+  display: block;
+  position: absolute;
+  width: 265px;
+  height: 300px;
+  font-size: 100px;
+  color: white;
+  font-family: Single Day;
+  line-height: 0.8;
+  letter-spacing: -4px;
+  text-align: center;
+  align-content: center;
+}
+  
   
   @media screen and (max-width: 980px) {
     
@@ -1554,6 +1639,10 @@ body {
       }
     
       .digiviceSection{
+          width: 100%;
+      }
+    
+      .bannerfallSection{
           width: 100%;
       }
   }

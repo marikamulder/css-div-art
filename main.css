@@ -1683,6 +1683,35 @@ body {
     background-position: 87% 7%, 95% 9%, 76% 9%, 35% 0%, 45% 2%, 26% 2%, 60% 22%, 67% 28%, 53% 28%, 6% 16%, 0% 22%, 17% 22%, 33% 37%, 28% 37%, 95% 30%, 100% 30%, 19% 77%, 86% 60%, 39% 53%, 39% 47%, 39% 50%, 61% 84%, 61% 73%, 61% 77%, 60% 90%, 25% 85%, 80% 70%, 40% 60%;
   }
   
+  /* looneytunes */
+  
+  .looneytunesSection {
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #202020 0% 15%, #464646 15.5%, #202020 36%, #464646 36.5%, #202020 57%, #464646 57.5%, #202020 78%, #464646 78.5%, #202020 100%);
+  }
+  
+  .looneytunesFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .looneytunes {
+    width: 430px;
+    height: 250px;
+    font-family: 'Sofia';
+    color: white;
+    font-size: 120px;
+    text-shadow: 20px 10px black;
+    font-style: italic;
+    transform: rotate(-13deg);
+  }
+  
   
   @media screen and (max-width: 980px) {
     
@@ -1731,6 +1760,10 @@ body {
       }
     
       .forestSection{
+          width: 100%;
+      }
+    
+      .looneytunesSection{
           width: 100%;
       }
   }

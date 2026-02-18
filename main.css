@@ -1683,6 +1683,67 @@ body {
     background-position: 87% 7%, 95% 9%, 76% 9%, 35% 0%, 45% 2%, 26% 2%, 60% 22%, 67% 28%, 53% 28%, 6% 16%, 0% 22%, 17% 22%, 33% 37%, 28% 37%, 95% 30%, 100% 30%, 19% 77%, 86% 60%, 39% 53%, 39% 47%, 39% 50%, 61% 84%, 61% 73%, 61% 77%, 60% 90%, 25% 85%, 80% 70%, 40% 60%;
   }
   
+  /* souleater */
+  
+  .souleaterSection {
+    width: 50%;
+    height: 500px;
+    background: black;
+  }
+  
+  .souleaterFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .souleater {
+    width: 350px;
+    height: 270px;
+  }
+  
+  .souleater:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-image:
+      linear-gradient(to right, #febd17 100%),
+      conic-gradient(at 100% 100%, transparent 78.9%, #febd17 79% 90.5%, transparent 90.7% 100%),
+      conic-gradient(at 0% 100%, transparent 8.9%, #febd17 9% 20.5%, transparent 20.7% 100%),
+      conic-gradient(at 100% 100%, transparent 78.9%, white 79% 90.5%, transparent 90.7% 100%),
+      conic-gradient(at 0% 100%, transparent 8.9%, white 9% 20.5%, transparent 20.7% 100%),
+      conic-gradient(at 0% 100%, #febd17 0% 11.5%, transparent 11.7% 100%),
+      conic-gradient(at 100% 100%, transparent 88.5%, #febd17 88.7% 100%),
+      conic-gradient(at 0% 100%, white 0% 11.5%, transparent 11.7% 100%),
+      conic-gradient(at 100% 100%, transparent 88.5%, white 88.7% 100%),
+      radial-gradient(circle, #febd17 70%, transparent 71% 100%),
+      conic-gradient(at 0% 0%, transparent 25.88%, #febd17 26% 39.5%, transparent 39.8% 100%);
+    background-size: 150px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 50px 50px, 250px 250px, 185px 200px;
+    background-position: 50% 57%, 67% 67%, 33% 67%, 70% 70%, 30% 70%, 47.5% 79%, 52% 79%, 46% 84%, 53.5% 84%, 50% 50%, 0% 0%;
+  }
+  
+  .souleater:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 350px;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-image:
+      radial-gradient(ellipse, #febd17 70%, transparent 71% 100%),
+      radial-gradient(ellipse, white 70%, transparent 75% 100%),
+      radial-gradient(circle, white 70%, transparent 71% 100%),
+      radial-gradient(circle, white 70%, transparent 71% 100%);
+    background-size: 215px 90px, 22px 7px, 65px 65px, 65px 65px;
+    background-position: 50% 25%, 50% 53%, 25% 45%, 75% 45%;
+  }
+  
   /* looneytunes */
   
   .looneytunesSection {
@@ -1760,6 +1821,10 @@ body {
       }
     
       .forestSection{
+          width: 100%;
+      }
+    
+      .souleaterSection{
           width: 100%;
       }
     

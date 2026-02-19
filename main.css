@@ -1688,7 +1688,7 @@ body {
   .souleaterSection {
     width: 50%;
     height: 500px;
-    background: black;
+    background: #474747;
   }
   
   .souleaterFlex {
@@ -1764,7 +1764,6 @@ body {
   
   .looneytunes {
     width: 430px;
-    height: 250px;
     font-family: 'Sofia';
     color: white;
     font-size: 120px;
@@ -1787,6 +1786,18 @@ body {
       .ninjaHeadbandSection{
           width: 100%;
       }
+  
+      .ninjaHeadband {
+        max-width: 400px;
+      }
+  
+      .ninjaHeadband:before {
+        max-width: 400px;
+      }
+  
+      .ninjaHeadband:after {
+        max-width: 400px;
+      }
     
       .sharinganSection{
           width: 100%;
@@ -1798,6 +1809,31 @@ body {
     
       .flagSection{
           width: 100%;
+      }
+  
+      .canadaFlag {
+        width: 400px;
+        background-image: 
+          linear-gradient( 90deg, red 0% 20%, white 20% 80%, red 80% 100%);
+      }
+  
+      .canadaFlag:before {
+        max-width: 400px;
+        background-image: 
+          conic-gradient( from 145deg, red 20%, transparent 20% ),
+          linear-gradient( -135deg, red 50%, transparent 50.5% ),
+          linear-gradient( 135deg, red 50%, transparent 50.5% ),
+          linear-gradient( 45deg, red 50%, transparent 50.5% ),
+          linear-gradient( -45deg, red 50%, transparent 50.5% ),
+          linear-gradient( 90deg, red, red),
+          conic-gradient( from 90deg, transparent 24.5deg, red 25deg 65deg, transparent 65.5deg ),
+          conic-gradient( from 180deg, transparent 24.5deg, red 25deg 65deg, transparent 65.5deg ),
+          linear-gradient( 105deg, transparent 29.5%, red 30% 70%, transparent 70.5% ),
+          linear-gradient( -105deg, transparent 29.5%, red 30% 70%, transparent 70.5% ),
+          linear-gradient( 90deg, red, red),
+          conic-gradient( from 155deg at top left, red 20%, transparent 20.5% ),
+          conic-gradient( from 130deg at top right, red 20%, transparent 20.5% );
+        background-position: 50% 10px, 34% 110px, 65% 110px, 44% 70px, 55% 70px, 50% 155px, 27% 30px, 72% 30px, 52% 50px, 47% 50px, 50% 100px, 56.5% 20px, 42.2% 20px;
       }
 
       .anbuSection {
@@ -1831,5 +1867,11 @@ body {
       .looneytunesSection{
           width: 100%;
       }
+  
+      .looneytunes {
+        width: 330px;
+        font-size: 85px;
+      }
+
   }
   

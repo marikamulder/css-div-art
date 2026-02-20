@@ -1744,6 +1744,69 @@ body {
     background-position: 50% 25%, 50% 53%, 25% 45%, 75% 45%;
   }
   
+  /* speechbubble */
+  
+  .speechbubbleSection {
+    width: 50%;
+    height: 500px;
+    background: #a63fbf;
+  }
+  
+  .speechbubbleFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 500px;
+  }
+  
+  .speechbubble {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .speechbubble:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-image:
+      radial-gradient(ellipse, white 45%, black 50% 68%, transparent 73% 100%),
+      radial-gradient(ellipse, white 45%, black 50% 68%, transparent 73% 100%),
+      radial-gradient(ellipse, white 45%, black 50% 68%, transparent 73% 100%),
+      radial-gradient(ellipse, #fece00 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, #fece00 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, #fece00 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, #fece00 70%, transparent 71.9% 100%),
+      linear-gradient(to right, #fece00 100%),
+      linear-gradient(to right, #fece00 100%),
+      conic-gradient(transparent 0deg 314.5deg, #fece00 315deg),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      conic-gradient(transparent 0deg 314.5deg, black 315deg),
+      radial-gradient(ellipse, #21ccc0 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, #21ccc0 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, #21ccc0 70%, transparent 71.9% 100%),
+      linear-gradient(to right, #21ccc0 100%),
+      linear-gradient(to right, #21ccc0 100%),
+      conic-gradient(#21ccc0 0deg 44.5deg, transparent 45deg 270deg),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      radial-gradient(ellipse, black 70%, transparent 71.9% 100%),
+      linear-gradient(to right, black 100%),
+      linear-gradient(to right, black 100%),
+      conic-gradient(black 0deg 44.5deg, transparent 45deg 270deg);
+    background-size: 20px 20px, 20px 20px, 20px 20px, 30px 30px, 30px 30px, 30px 30px, 30px 30px, 160px 90.9px, 130px 120px, 70px 70px, 36px 36px, 36px 36px, 36px 36px, 36px 36px, 166px 96px, 136px 126px, 76px 76px, 30px 30px, 30px 30px, 30px 30px, 160px 90px, 130px 120px, 70px 70px, 36px 36px, 36px 36px, 36px 36px, 166px 96px, 136px 126px, 76px 76px;
+    background-position: 50% 57%, 65% 57%, 80% 57%, 36.7% 35.5%, 96% 35.5%, 36.7% 76.5%, 96% 76.5%, 90% 60%, 80% 60%, 100% 109%, 36.5% 35%, 97% 35%, 36.5% 77%, 97% 77%, 92.3% 60%, 80% 60.5%, 103.4% 115%, 4% 15%, 4% 56%, 63% 15%, 10% 30%, 20% 25%, 1% 84%, 3% 14%, 3% 56%, 63.5% 14%, 7% 30%, 20% 24.5%, -2% 89%;
+  }
+  
   /* looneytunes */
   
   .looneytunesSection {
@@ -1861,6 +1924,10 @@ body {
       }
     
       .souleaterSection{
+          width: 100%;
+      }
+    
+      .speechbubbleSection{
           width: 100%;
       }
     
